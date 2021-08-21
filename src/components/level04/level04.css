@@ -1,0 +1,90 @@
+.photosContainer {
+    background-color: cornsilk;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.previewsContainer{
+    min-width: 100vw;
+    height: 15vh;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wideImageContainer{
+    height: 60vh;
+    position: relative;
+    margin-bottom: 40px;
+
+}
+
+.wideImageContainer img{
+    margin-top: 40px;
+    /* height: 405px; */
+    width: 540px;
+}
+
+.photoDescription {
+    margin-top: 40px;
+    padding: 40px ;
+    height: 325px;
+    width: 460px;
+    position: absolute;
+    background-color: rgba(32, 32, 32, 0.623);
+    font-size: 17px;
+
+}
+
+.photoDescription p{
+    color: white;
+}
+
+.photoDescriptionRight {
+    margin-top: 40px;
+    padding: 40px ;
+    height: 325px;
+    width: 460px;
+    position: absolute;
+    background-color: rgb(44, 189, 0);
+    font-size: 17px;
+
+}
+
+.photoDescriptionRight p{
+    color: white;
+}
+
+.selectionContainer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.intentosContainer {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 14px;
+}
+
+.previewPhoto {
+    height: 10vh;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+
+.popupCardTitle {
+    color: white;
+    font-size: 27px;
+}
+
+.popupCardError {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(32, 32, 32, 0.924);
+    text-align: center;
+    justify-content: space-evenly;
+}

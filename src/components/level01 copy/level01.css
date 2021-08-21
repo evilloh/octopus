@@ -1,0 +1,31 @@
+
+    .square {
+        width: 30px;
+        height: 30px;
+        border: 1px ;
+    }
+
+    .selected {
+        border: 1px solid green !important;
+    }
+
+    .cupidContainer {
+        width: 96px;
+        height: 96px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+
+    }
+
+    .cupidButtonsContainer {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+
+    .cupidButton {
+        width: 190px;
+        border: 1px solid red;
+    }

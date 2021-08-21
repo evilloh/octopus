@@ -1,0 +1,16 @@
+.finalContainer {
+  background-color: rgb(229, 235, 226);
+  width: 100vw;
+  height: 100vh;
+}
+
+.videino {
+  width: 100vw;
+  height: 100vh;
+}
+
+.finalTitle {
+  font-size: 40px;
+  color: red;
+  text-align: center;
+}

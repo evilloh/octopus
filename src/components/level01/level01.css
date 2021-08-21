@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffbffa;
+}
+
+h1,
+h3,
+p {
+  color: #e20000;
+  padding: 0 50px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #ffffff;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+h4 {
+  font-size: 18px;
+  color: #ffe2e2;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+  width: 100%;
+  animation: vibrate 0.2s linear 0s infinite;
+}
+
+@keyframes vibrate {
+  0% {
+    margin-left: 0px;
+  }
+  25% {
+    margin-left: -6px;
+  }
+  50% {
+    margin-left: 0px;
+  }
+  75% {
+    margin-left: 6px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+.App1 {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  min-width: 100vw;
+  background-color: tomato;
+}

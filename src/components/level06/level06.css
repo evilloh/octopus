@@ -1,0 +1,130 @@
+.animalsContainer {
+  background-color: rgb(255, 255, 255);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "04b03";
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.animalsContainer p {
+  color: rgb(0, 0, 0);
+}
+
+.choicesContainer {
+  background-image: url(./assets/layout.png);
+  display: flex;
+  justify-content: center;
+  background-size: contain;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-self: end;
+  flex-direction: column;
+}
+
+.choice {
+  border: 7px solid rgb(41, 40, 40);
+  padding: 3px 8px;
+  text-align: center;
+  width: 180px;
+  height: 55px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  cursor: pointer;
+  margin: 20px 50px;
+  margin-top: 10px;
+}
+
+.choice p:hover {
+  text-decoration: underline;
+  text-decoration-style: underline overline;
+  text-decoration-thickness: 0.3em;
+}
+
+.choice p {
+  color: rgb(0, 0, 0);
+  font-family: "04b03";
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 17px;
+  width: 100%;
+  align-items: center;
+}
+
+.layout {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.progressplayer[value]::-webkit-progress-bar {
+  background-color: rgb(231, 15, 15);
+}
+
+.progressplayer[value]::-webkit-progress-value {
+  background-color: #ff0000;
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: red;
+}
+
+.playerContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  height: 30%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+.playerContainer img {
+  width: 260px;
+}
+
+.infoPgContainer {
+  align-self: flex-end;
+  margin-right: 60px;
+}
+
+.infoPgContainer p {
+  align-self: flex-end;
+  padding: 0;
+  margin: 2px;
+}
+
+.infoEnContainer {
+  margin-left: 60px;
+  margin-top: 60px;
+}
+
+.infoEnContainer p {
+  align-self: flex-end;
+  padding: 0;
+  margin: 2px;
+}
+
+.hp {
+  display: flex;
+  align-items: center;
+}
+
+.el {
+  height: 16px;
+  width: 16px;
+  background-color: green;
+}
+
+.choiceFixer {
+  display: flex;
+  margin: 0 auto;
+}
