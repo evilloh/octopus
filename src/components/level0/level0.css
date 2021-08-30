@@ -1,32 +1,52 @@
-.maninaContainer {
-    background-image: url(https://images.emojiterra.com/openmoji/v12.2/512px/1f590-1f3fb.png);
-    background-repeat: repeat;
-    background-color: #cccccc;
-    width: 100vw;
-    min-height: 100vh;
+.level0Container {
+  background-image: url(./background.jpg);
+  background-repeat: repeat;
+  background-color: #cccccc;
+  max-width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
 }
 
-.manina {
-    position: absolute;
-    top: 80%;
-    left: 32%;
-    width: 30px;
+.spellContainer {
+  background: rgba(51, 51, 51, 0.534);
+  width: 70%;
+  margin: 0 auto;
+  min-height: 60%;
+  margin-top: 30px;
+  margin-bottom: 20%;
+  padding: 20px 60px;
+  border-radius: 10px;
 }
 
-.caritaGuapa {
-    width: 100%;
-    margin-bottom: 20px;
+.spellContainer p {
+  font-size: 19px;
+  text-align: center;
+  font-style: italic;
+  color: rgb(251, 251, 249);
 }
 
-input[type=text] {
-    width: 100%;
-    height: 86px;
-    padding: 12px 20px;
-    font-size: 40px;
-    text-align: center;
-    text-transform: uppercase;
-    box-sizing: border-box;
-    background-color: #9a543f;
-    color: white;
-    border: 3px solid #555;
+.spellContainer p:last-of-type {
+  font-size: 22px;
+  font-style: normal;
+}
+
+.spellContainer h3 {
+  font-size: 30px;
+  color: rgb(251, 251, 249);
+  text-align: center;
+  cursor: pointer;
+}
+
+.spellContainer h3:hover {
+  text-decoration: underline;
+  text-shadow: 2px 2px rgba(36, 36, 36, 0.397);
+  transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 600px) {
+  .level0Container {
+    overflow: scroll;
+  }
 }

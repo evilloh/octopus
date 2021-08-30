@@ -18,6 +18,7 @@ export default function Home(props) {
       display: "none",
     });
   };
+
   return (
     <div className="superHome" style={style}>
       <BGText getOut={getOut} props={props}></BGText>

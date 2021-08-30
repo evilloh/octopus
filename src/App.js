@@ -24,7 +24,7 @@ const App = () => (
         <Route path="/5" component={Level05}></Route>
         <Route path="/6" component={Level06}></Route>
         <Route path="/final" component={LevelFinal}></Route>
-        <Route path="/" component={LevelHome}></Route>
+        <Route path="/" component={Level0}></Route>
       </Switch>
     </div>
   </Router>

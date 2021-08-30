@@ -6,6 +6,7 @@ import videoFinal from "./assets/video.mp4";
 import { Router } from "react-router-dom";
 import { Redirect } from "react-router-dom";
 import { property } from "lodash";
+import ReactPlayer from "react-player/youtube";
 
 export default function Level05(props) {
   const [showVideo, setShowVideo] = useState(false);
@@ -16,11 +17,16 @@ export default function Level05(props) {
     setShowVideo(true);
   };
   return (
-    <div className="finalContainer">
-      <h1 className="finalTitle">LEVEL STILL LOCKED, TRY AGAIN LATER!</h1>
-      <video className="videino" controls onEnded={() => myCallback()}>
-        <source src={video} type="video/mp4" />
-      </video>
+    <div className="eneatipoContainer">
+      <ReactPlayer
+        url="https://www.youtube.com/watch?v=ZbmLw_4WzAE?&autoplay=1"
+        autoPlay
+        width="100%"
+        height="100%"
+        onEnded={() => myCallback()}
+        controls={true}
+        playing={true}
+      />
     </div>
   );
 }
